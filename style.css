@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgb(15, 239, 176), rgb(131, 131, 248));
+    height: 100vh;
+    ;
+}
+
+.title-frame {
+    text-align: center;
+    margin: 100px;
+}
+
+.title {
+    font-size: 3rem;
+    color: rgb(53, 53, 55);
+}
+
+.profile-frame {
+    border: 1px solid transparent;
+    padding: 50px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 15px;
+}
+
+.profile-photo {
+    width: 100px;
+}
+
+.job {
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 10px;
+}
+.btn-prev {
+    border: 1px solid transparent;
+    background-color: rgb(15, 239, 176);
+    color: #FFF;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn-next {
+    border: 1px solid transparent;
+    background-color: rgb(15, 239, 176);
+    color: #FFF;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.btn-suprise {
+    border: 1px solid transparent;
+    background-color: rgb(15, 239, 176);
+    color: #FFF;
+    border-radius: 15px;
+   margin-top: 15px;
+   width: 40%;
+   padding: 10px;
+   cursor: pointer;
+}
